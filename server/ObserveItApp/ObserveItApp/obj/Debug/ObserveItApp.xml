@@ -1,0 +1,66 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+ObserveItApp
+</name>
+</assembly>
+<members>
+<member name="T:ObserveItApp.My.MyWebExtension">
+ <summary>
+ Module used to define the properties that are available in the My Namespace for Web projects.
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="P:ObserveItApp.My.MyWebExtension.Computer">
+ <summary>
+ Returns information about the host computer.
+ </summary>
+</member>
+<member name="P:ObserveItApp.My.MyWebExtension.User">
+ <summary>
+ Returns information for the current Web user.
+ </summary>
+</member>
+<member name="P:ObserveItApp.My.MyWebExtension.Request">
+ <summary>
+ Returns Request object.
+ </summary>
+</member>
+<member name="P:ObserveItApp.My.MyWebExtension.Response">
+ <summary>
+ Returns Response object.
+ </summary>
+</member>
+<member name="P:ObserveItApp.My.MyWebExtension.Log">
+ <summary>
+ Returns the Asp log object.
+ </summary>
+</member>
+<member name="M:ObserveItApp.SchedulerModel.#ctor(System.Int32,System.Int32)">
+ <summary>
+ Receives the start and end hours for flexibility. 
+ </summary>
+ <param name="_ActiveHoursStart"></param>
+ <param name="_ActiveHoursEnd"></param>
+</member>
+<member name="T:ObserveItApp.SchedulerRowViewModel">
+ <summary>
+ A view model data type for the controller to consume
+ </summary>
+</member>
+<member name="M:ObserveItApp.SchedulerController.GetAll">
+ <summary>
+  Gets all the scheduler data
+ </summary>
+ <returns></returns>
+</member>
+<member name="M:ObserveItApp.SchedulerController.PostAppointment(ObserveItApp.AppointmentModel)">
+ <summary>
+ Creates a new appointment
+ </summary>
+ <param name="appointmentData"></param>
+ <returns></returns>
+</member>
+</members>
+</doc>
