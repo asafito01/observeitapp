@@ -2,8 +2,8 @@
 
 This app includes a client (Angular) and a server (ASP.NET Web API using VB.NET)
 
-The server app is using localhost:4444
-The client app is using localhost:4200
+* The server app is using localhost:4444
+* The client app is using localhost:4200
 
 The app is separated into layers so each layer has its own responsibility.
 The controller works with a ISchedulerService which provides it with the needed scheduler data.
