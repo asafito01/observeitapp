@@ -19,7 +19,7 @@ For example:
 The SchedulerService could return a StatusResult object instead of nulls or other messages.
 This could give more information to the SchedulerController about what happened and do the correct action (ex: appointment not created)
 
-Also, the client app shoul have received the error messages and show a propper error message but didn't work as expected and was left off to do something else
+Also, the client app should have received the error messages and show a propper error message but didn't work as expected and was left off to do something else
 
 2) Bonus 1 was done
 
