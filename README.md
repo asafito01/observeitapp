@@ -9,12 +9,17 @@ The app is separated into layers so each layer has its own responsibility.
 The controller works with a ISchedulerService which provides it with the needed scheduler data.
 I used dependency injection so each class can be injected the implementation instead of stronly typing the responsibilities inside the classes
 
-Important notes: 
+#### Important notes: 
 
 There are several parts in the project which can be done differently:
+1) The error handling and display was a bit lacking in this test. I would have added a much more detailed errors and messages, while each function returns specific data of what was wrong so the consumer can know what happened and action accordingly
 
-1) For better understanding the SchedulerService could return a StatusResult object instead of nulls or other messages.
+For example:
+
+The SchedulerService could return a StatusResult object instead of nulls or other messages.
 This could give more information to the SchedulerController about what happened and do the correct action (ex: appointment not created)
+
+Also, the client app shoul have received the error messages and show a propper error message but didn't work as expected and was left off to do something else
 
 2) Bonus 1 was done
 
